@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">">
+    <title>Login</title>
+</head>
+<style>
+    * {
+       
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+
+       }
+      
+       body {
+         font-family: Roboto;
+         background: #18311A;
+         opacity: 0.9;
+         background-image: url('./img/waterfall.jpg');
+         background-position: center center;
+         background-size: cover;
+         color:#fff;
+         line-height: 2.4;
+       }
+
+       a {
+        text-decoration: none;
+       }
+
+    #container{
+        margin: 20px auto;
+        max-width: 400px;
+        margin-top: 20px;
+        padding: 15px 25px;
+    }
+
+    .wrap{
+        margin-top: 20px;
+        border: #bbb 2px solid;
+        background-color: #52A657;
+        border-radius: 30px;
+    }
+
+    .wrap h1{
+        text-align: center;
+    }
+    .wrap p{
+        text-align: center;
+    }
+
+
+    .wrap .form{
+        margin-top: 15px;
+        display: block;
+        text-align: center;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .wrap label{
+        display: block;
+        color: #fff;
+        box-sizing: border-box;
+        font-size: 18px;
+    }
+
+    .wrap input{
+        width: 95%;
+        padding: 10px;
+        border: #555 3px solid;
+        border-radius: 7px;
+
+    }
+
+    .wrap button {
+        display: block;
+        background-color: #fff;    
+        padding: 5px;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 50%;
+        border-radius: 15px;
+    }
+
+    .wrap button:hover {
+        cursor: pointer;
+        background-color: #74B79A;
+
+    }
+
+    footer{
+        text-align: center;
+        color: #000;
+        font-weight: bold;
+        background-color: #bbb;
+        border-radius: 20px;
+        
+    }
+
+    footer a{
+        color: blue;
+    }
+
+    footer a:hover{
+        color:red
+    }
+</style>
+
+<body>
+
+    <div id="container">
+        <div class="wrap">
+            <h1>Login</h1>
+            <p>Please sign in to continue</p>
+        
+            <form>
+                <div class="form">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <br>
+                <button type="login" class="btn">Login</button>
+            </form>
+            
+        </div>
+        <br>
+        <footer>Don't have an account? <a href="#">Sign up here</a></footer>
+        
+    </div>
+    
+</body>
+</html>
